@@ -1,5 +1,7 @@
 .banner-img{
     width: 335px;
+    height: 850px;
+    padding: 30px 30px 0px 150px;
 }
 .banner-container{
     display: flex;
@@ -7,6 +9,8 @@
     height: 100vh;
     align-items: center;
     background: rgba(229, 84, 115, 0.10);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .title{
     font-size: 55px;
@@ -17,4 +21,40 @@
     background-color: brown;
     color: white;
     border: none;
+}
+.banner-text{
+    width: 400px;
+    height: 200px;
+    padding: 30px 35px 200px 100px;
+}
+.about-title{
+    text-align: center;
+
+}
+.primary{
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 15px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+}
+.back-1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.back-2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.back-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.nav-item{
+    display: flex;
+    justify-content: space-around;
 }
