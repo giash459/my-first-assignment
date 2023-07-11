@@ -1,7 +1,6 @@
 .banner-img{
     width: 335px;
-    height: 850px;
-    padding: 30px 30px 0px 150px;
+    height: 400px;
 }
 .banner-container{
     display: flex;
